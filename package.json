@@ -1,6 +1,6 @@
 {
-  "name": "megadraft-image-plugin",
-  "version": "0.3.5",
+  "name": "@linc.world/megadraft-image-plugin",
+  "version": "0.3.6",
   "description": "megadraft-image-plugin",
   "main": "lib/plugin.js",
   "dependencies": {
@@ -73,6 +73,9 @@
     "react",
     "draftjs"
   ],
+  "publishConfig": {
+	 "registry": "https://registry.linc.world/"
+  },
   "author": "Brahma-Dev <me@brahma.world>",
   "license": "MIT",
   "bugs": {

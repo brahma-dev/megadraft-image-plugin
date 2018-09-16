@@ -208,7 +208,7 @@ var styles = StyleSheet.create({
     zIndex: '2',
   },
   focus: {
-    border: '2px solid #6ae5d7',
+    border: '2px solid #14a8d5',
   }
 })
 

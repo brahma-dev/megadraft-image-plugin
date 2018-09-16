@@ -34,7 +34,7 @@ export default class ImageComponent extends Component {
 
   render() {
     var icons = ICONS.map((icon, index) => {
-      var fill = this.props.width === icon.width ? '#48e79a' : '#fff';
+      var fill = this.props.width === icon.width ? '#14a8d5' : '#fff';
       var style = {fill: fill};
       return (
         <div onClick={() => this.setSize(icon.width, icon.id)} className={css(styles.button)}>
@@ -67,7 +67,7 @@ var styles = StyleSheet.create({
     zIndex: '2',
     padding: '10px',
     display: 'flex',
-    width: '90px',
+    width: '120px',
     justifyContent: 'space-between',
   }
 });
