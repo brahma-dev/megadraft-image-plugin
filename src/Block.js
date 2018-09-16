@@ -129,7 +129,7 @@ export default class Block extends Component {
     var readOnly = this.props.blockProps.getInitialReadOnly();
 
     var loadOptions = {
-      color: "#26A65B",
+      color: "#14a8d5",
       size: "16px",
       margin: "4px",
       ...this.props.blockProps.plugin.loadOptions,
@@ -208,7 +208,7 @@ var styles = StyleSheet.create({
     zIndex: '2',
   },
   focus: {
-    border: '3px solid #48e79a',
+    border: '2px solid #6ae5d7',
   }
 })
 

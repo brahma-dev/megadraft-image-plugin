@@ -5,6 +5,6 @@
  */
 
 export default {
-  PLUGIN_NAME: "megadraft-image-plugin",
+  PLUGIN_NAME: "Image",
   PLUGIN_TYPE: "megadraft-image-plugin"
 };
